@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto de Gabriel Ortega</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa;
+            color: #333;
+        }
+        header, footer {
+            background-color: #00796b;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1, h2 {
+            color: #00796b;
+        }
+        .content {
+            text-align: center;
+            line-height: 1.6;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 0;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .nav a {
+            margin: 0 10px;
+            padding: 10px 20px;
+            background-color: #00796b;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .nav a:hover {
+            background-color: #005a52;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Proyecto de Bases de Datos del Futbol Club</h1>
+</header>
+
+<div class="container">
+    <h2>Gabriel Ortega</h2>
+
+    <div class="content">
+        <h1>Bienvenido a la Biblioteca UTS</h1>
+        <p>Seleccione una opción en la barra de navegación para comenzar:</p>
+        <div class="nav">
+            <a href="/libro/listar">Libros</a>
+            <a href="/usuario/listar">Usuarios</a>
+            <a href="/admin/listar">Administradores</a>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Gabriel Ortega. Todos los derechos reservados.</p>
+</footer>
+</body>
+</html>
